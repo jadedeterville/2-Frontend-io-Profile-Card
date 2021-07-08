@@ -1,0 +1,52 @@
+/* Standard setup */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Background */
+
+body {
+  background: hsl(185, 75%, 39%);
+  height: 100vh;
+  overflow: hidden;
+}
+
+#top-pattern img {
+  position: relative;
+  z-index: -1;
+  top: -350px;
+  width: 800px;
+}
+
+#bottom-pattern img {
+  position: relative;
+  z-index: -1;
+  bottom: 500px;
+  left: 575px;
+  width: 800px;
+}
+
+/* Profile Card Styling */
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.card {
+  z-index: 5;
+  background: #fff;
+}
+
+/* Attribution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
