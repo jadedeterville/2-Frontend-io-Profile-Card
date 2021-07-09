@@ -1,3 +1,6 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
 /* Standard setup */
 * {
   margin: 0;
@@ -11,20 +14,23 @@ body {
   background: hsl(185, 75%, 39%);
   height: 100vh;
   overflow: hidden;
+  font-family: 'Kumbh Sans', sans-serif;
 }
 
-#top-pattern img {
-  position: relative;
+.background-circles img {
+  position: absolute;
+}
+
+#top-pattern {
   z-index: -1;
   top: -350px;
   width: 800px;
 }
 
-#bottom-pattern img {
-  position: relative;
+#bottom-pattern {
   z-index: -1;
-  bottom: 500px;
-  left: 575px;
+  bottom: -350px;
+  left: 712px;
   width: 800px;
 }
 
@@ -34,12 +40,36 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
   position: relative;
 }
 
 .card {
-  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  width: 350px;
+  z-index: 1;
   background: #fff;
+  border-radius: 3%;
+}
+
+.card #profile-pattern {
+  display: absolute;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+  height: 125px;
+}
+
+.card #victor {
+  /* display: relative; */
+  /* z-index: 1; */
+  border-radius: 50%;
+  align-self: center;
+  height: 75px;
+  width: 75px;
+  /* top: 4px; */
+  margin: 8px;
 }
 
 /* Attribution */
