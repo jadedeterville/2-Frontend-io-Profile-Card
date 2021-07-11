@@ -48,35 +48,78 @@ section {
   display: flex;
   flex-direction: column;
   height: 350px;
-  width: 350px;
+  width: 300px;
   z-index: 1;
   background: #fff;
-  border-radius: 3%;
+  border-radius: 6%;
 }
 
 .card #profile-pattern {
-  display: absolute;
-  border-top-left-radius: 3%;
-  border-top-right-radius: 3%;
+  display: relative;
+  border-top-left-radius: 6%;
+  border-top-right-radius: 6%;
   height: 125px;
 }
 
+#age,
+h3,
+.metrics {
+  color: hsl(229, 23%, 23%);
+  font-weight: 400;
+}
+
+h1,
+h3 {
+  align-self: center;
+  padding: 4px;
+  margin-bottom: 10px;
+}
+
+h1,
+h4 {
+  font-size: 18px;
+}
+
+#age {
+  font-size: 15px;
+}
+
+h3,
+.metrics {
+  font-size: 12px;
+}
+
+hr {
+  height: 0.1px none;
+  color: #ffffff;
+}
+
+#stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.metrics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3px;
+}
+
+/* how can we overlap the image with the background? */
 .card #victor {
-  /* display: relative; */
-  /* z-index: 1; */
+  display: relative;
+  z-index: 1;
   border-radius: 50%;
   align-self: center;
   height: 75px;
   width: 75px;
-  /* top: 4px; */
-  margin: 8px;
+  top: 4px;
 }
 
-/* Attribution */
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
+#victor {
+  margin-top: -40px;
+  margin-bottom: 30px;
 }
