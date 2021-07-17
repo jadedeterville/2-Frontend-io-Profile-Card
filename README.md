@@ -27,8 +27,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [Netlify](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/html-and-css-including-flexbox-etH3vK2dV)
+- Live Site URL: [Netlify](https://cocky-visvesvaraya-60b844.netlify.app/)
 
 ## My process
 
@@ -47,6 +47,6 @@ Created the HTML, then set about styling with CSS. Added media queries last.
 
 ## Author
 
-- GitHub - [Jade](https://github.com/jadedeterville)
+- GitHub - [jadedeterville](https://github.com/jadedeterville)
 - Frontend Mentor - [@jadedeterville](https://www.frontendmentor.io/profile/jadedeterville)
 - Twitter - [@jadedeterville](https://twitter.com/jadedeterville)
