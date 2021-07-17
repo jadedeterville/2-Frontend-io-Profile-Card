@@ -41,7 +41,6 @@ section {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  position: relative;
 }
 
 .card {
@@ -49,13 +48,11 @@ section {
   flex-direction: column;
   height: 350px;
   width: 300px;
-  z-index: 1;
   background: #fff;
   border-radius: 6%;
 }
 
 .card #profile-pattern {
-  display: relative;
   border-top-left-radius: 6%;
   border-top-right-radius: 6%;
   height: 125px;
@@ -94,32 +91,90 @@ hr {
   color: #ffffff;
 }
 
-#stats {
+#metrics-columns {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
   margin-top: 15px;
+  padding: 10px;
 }
 
-.metrics {
+.column {
   display: flex;
-  flex-direction: column;
+  flex: 1;
   align-items: center;
+  justify-content: center;
+}
+
+.column .metrics {
+  display: flex;
   margin-top: 3px;
 }
 
-/* how can we overlap the image with the background? */
 .card #victor {
-  display: relative;
-  z-index: 1;
   border-radius: 50%;
   align-self: center;
   height: 75px;
   width: 75px;
-  top: 4px;
 }
 
 #victor {
   margin-top: -40px;
   margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 769px) {
+  .background-circles img {
+    display: absolute;
+  }
+
+  #top-pattern {
+    z-index: -1;
+    top: -250px;
+    width: 500px;
+  }
+
+  #bottom-pattern {
+    z-index: -1;
+    bottom: -450px;
+    left: 300px;
+    width: -600px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .background-circles img {
+    display: absolute;
+  }
+
+  #top-pattern {
+    z-index: -1;
+    top: -150px;
+    width: 450px;
+  }
+
+  #bottom-pattern {
+    z-index: -1;
+    bottom: -450px;
+    left: 300px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .background-circles img {
+    display: absolute;
+  }
+
+  #top-pattern {
+    z-index: -1;
+    top: -170px;
+    width: 600px;
+    right: 225px;
+  }
+
+  #bottom-pattern {
+    z-index: -1;
+    bottom: -450px;
+    left: 225px;
+  }
 }
