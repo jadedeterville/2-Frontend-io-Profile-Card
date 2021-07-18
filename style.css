@@ -24,14 +24,14 @@ body {
 #top-pattern {
   z-index: -1;
   top: -350px;
-  width: 800px;
+  width: 900px;
 }
 
 #bottom-pattern {
   z-index: -1;
   bottom: -350px;
   left: 712px;
-  width: 800px;
+  width: 900px;
 }
 
 /* Profile Card Styling */
@@ -50,6 +50,7 @@ section {
   width: 300px;
   background: #fff;
   border-radius: 6%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .card #profile-pattern {
@@ -95,6 +96,7 @@ hr {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   margin-top: 15px;
   padding: 10px;
 }
@@ -107,7 +109,8 @@ hr {
 }
 
 .column .metrics {
-  display: flex;
+  display: block;
+  text-align: center;
   margin-top: 3px;
 }
 
