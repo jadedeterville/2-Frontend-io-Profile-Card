@@ -147,10 +147,6 @@ hr {
 }
 
 @media only screen and (max-width: 1024px) {
-  body {
-    overflow: hidden;
-  }
-
   .background-circles img {
     display: absolute;
   }
@@ -169,10 +165,6 @@ hr {
 }
 
 @media only screen and (max-width: 480px) {
-  body {
-    overflow: hidden;
-  }
-
   .background-circles img {
     display: absolute;
   }
